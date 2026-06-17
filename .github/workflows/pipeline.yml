@@ -1,0 +1,46 @@
+%%writefile tourism_mlops_project/.github/workflows/tourism_pipeline.yml
+name: Tourism MLOps Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  train-and-deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install pandas==2.2.2
+          pip install numpy
+          pip install scikit-learn==1.6.0
+          pip install joblib==1.5.1
+          pip install huggingface_hub==0.32.6
+          pip install streamlit==1.43.2
+          pip install mlflow==3.0.1
+          pip install xgboost==2.1.4
+
+      - name: Run Data Preparation
+        run: |
+          python tourism_mlops_project/model_building/prep.py
+
+      - name: Run Model Training
+        run: |
+          python tourism_mlops_project/model_building/train.py
+
+      - name: Deploy Application
+        run: |
+          python tourism_mlops_project/hosting/hosting.py
