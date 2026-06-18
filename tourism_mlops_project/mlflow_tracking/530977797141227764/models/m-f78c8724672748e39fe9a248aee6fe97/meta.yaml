@@ -1,0 +1,10 @@
+artifact_location: file:///content/tourism_mlops_project/mlflow_tracking/530977797141227764/models/m-f78c8724672748e39fe9a248aee6fe97/artifacts
+creation_timestamp: 1781769396060
+experiment_id: '530977797141227764'
+last_updated_timestamp: 1781769425919
+model_id: m-f78c8724672748e39fe9a248aee6fe97
+model_type: null
+name: model
+source_run_id: d75854a9fb0d40f799e0de4c83c2a24e
+status: 2
+status_message: null

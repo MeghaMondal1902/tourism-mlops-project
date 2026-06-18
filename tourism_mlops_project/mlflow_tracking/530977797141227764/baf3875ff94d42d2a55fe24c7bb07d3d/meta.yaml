@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_mlops_project/mlflow_tracking/530977797141227764/baf3875ff94d42d2a55fe24c7bb07d3d/artifacts
+end_time: 1781769297309
+entry_point_name: ''
+experiment_id: '530977797141227764'
+lifecycle_stage: active
+run_id: baf3875ff94d42d2a55fe24c7bb07d3d
+run_name: defiant-lynx-831
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781769297301
+status: 3
+tags: []
+user_id: root

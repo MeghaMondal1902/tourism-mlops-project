@@ -1,0 +1,24 @@
+artifact_path: file:///content/tourism_mlops_project/mlflow_tracking/530977797141227764/models/m-f78c8724672748e39fe9a248aee6fe97/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types:
+    - sklearn.compose._column_transformer._RemainderColsList
+mlflow_version: 3.14.0
+model_id: m-f78c8724672748e39fe9a248aee6fe97
+model_size_bytes: 9384756
+model_uuid: m-f78c8724672748e39fe9a248aee6fe97
+prompts: null
+run_id: d75854a9fb0d40f799e0de4c83c2a24e
+utc_time_created: '2026-06-18 07:56:36.081681'

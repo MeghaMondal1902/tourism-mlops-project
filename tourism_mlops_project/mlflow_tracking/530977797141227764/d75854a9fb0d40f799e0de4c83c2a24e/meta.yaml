@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_mlops_project/mlflow_tracking/530977797141227764/d75854a9fb0d40f799e0de4c83c2a24e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '530977797141227764'
+lifecycle_stage: active
+run_id: d75854a9fb0d40f799e0de4c83c2a24e
+run_name: shivering-fowl-498
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781769395824
+status: 1
+tags: []
+user_id: root

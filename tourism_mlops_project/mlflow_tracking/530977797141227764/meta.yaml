@@ -1,0 +1,9 @@
+artifact_location: file:///content/tourism_mlops_project/mlflow_tracking/530977797141227764
+creation_time: 1781769296065
+effective_trace_archival_retention: null
+experiment_id: '530977797141227764'
+last_update_time: 1781769296065
+lifecycle_stage: active
+name: tourism-package-prediction-experiment
+trace_location: null
+workspace: default
